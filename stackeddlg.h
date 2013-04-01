@@ -2,6 +2,10 @@
 #define STACKEDDLG_H
 
 #include <QWidget>
+#include <QListWidget>
+#include <QHBoxLayout>
+#include <QStackedWidget>
+
 
 class QListWidget;
 class QStackedWidget;

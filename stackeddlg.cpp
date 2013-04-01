@@ -1,7 +1,5 @@
 #include "stackeddlg.h"
-#include <QListWidget>
-#include <QHBoxLayout>
-#include <QStackedWidget>
+
 
 stackedDlg::stackedDlg(QWidget *parent)
 	: QWidget(parent)
