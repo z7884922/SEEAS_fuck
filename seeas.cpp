@@ -12,20 +12,20 @@ SEEAS::SEEAS(QWidget *parent, Qt::WFlags flags)
 	this->setWindowTitle(tr("大软课程管理系统"));
 	this->setWindowIcon(QIcon(":/system.png"));
 
-	openAction = new QAction("&open",this);
-	openAction->setStatusTip("open a file.");
+	openAction = new QAction(tr("打开"),this);
+	openAction->setStatusTip(tr("打开之前的评分记录"));
 	openAction->setIcon(QIcon(":/Resources/open-file.png"));
 
-	saveAction = new QAction("save",this);
-	saveAction->setStatusTip("save a file.");
+	saveAction = new QAction(tr("保存"),this);
+	saveAction->setStatusTip(tr("保存现在的修改"));
 	saveAction->setIcon(QIcon(":/Resources/save.png"));
 
-	defaultAction = new QAction("default",this);
-	defaultAction->setStatusTip("default the file.");
+	defaultAction = new QAction(tr("重置"),this);
+	defaultAction->setStatusTip(tr("恢复默认。"));
 	defaultAction->setIcon(QIcon(":/Resources/reset.png"));
 
-	generateAction = new QAction("generate_tabel",this);
-	generateAction->setStatusTip("generate a table.012447");
+	generateAction = new QAction(tr("生成表单"),this);
+	generateAction->setStatusTip(tr("生成当前表单。"));
 	generateAction->setIcon(QIcon(":/Resources/generate-tables.png"));
 
 	previewAction = new QAction("preview-table",this);
@@ -45,7 +45,7 @@ SEEAS::SEEAS(QWidget *parent, Qt::WFlags flags)
 	statulLabel->setAlignment(Qt::AlignHCenter); 
 	statusBar()->addWidget(statulLabel);
 
-	QToolBar *toolBar = addToolBar(tr("&File")); 
+	QToolBar *toolBar = addToolBar(tr("操作")); 
 	//toolBar->setWindowIcon(QIcon(":/toolbar.png"));
 	toolBar->addAction(openAction);
 	toolBar->addAction(saveAction);
