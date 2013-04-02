@@ -5,6 +5,8 @@
 #include <QListWidget>
 #include <QHBoxLayout>
 #include <QStackedWidget>
+#include "groupmng.h"
+#include "welcome.h"
 
 
 class QListWidget;
@@ -22,6 +24,9 @@ public:
 private:
 	QListWidget *leftlist;
 	QStackedWidget *stack;
+	GroupMng *groupmng;
+	Welcome *welcome;
+
 };
 
 #endif // STACKEDDLG_H

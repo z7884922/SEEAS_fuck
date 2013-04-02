@@ -62,6 +62,24 @@
     <ClCompile Include="seeas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="groupmng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_groupmng.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_groupmng.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="welcome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_welcome.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_welcome.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="seeas.h">
@@ -76,9 +94,27 @@
     <CustomBuild Include="stackeddlg.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="groupmng.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="groupmng.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="welcome.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="welcome.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_seeas.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_groupmng.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_welcome.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>

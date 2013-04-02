@@ -11,5 +11,7 @@
         <file>Resources/splash1.jpg</file>
         <file>Resources/system.png</file>
         <file>Resources/toolbar.png</file>
+        <file>Resources/29.png</file>
+        <file>Resources/computer.png</file>
     </qresource>
 </RCC>

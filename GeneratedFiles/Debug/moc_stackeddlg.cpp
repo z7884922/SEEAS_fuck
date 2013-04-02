@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'stackeddlg.h'
 **
-** Created: Mon Apr 1 12:59:15 2013
+** Created: Tue Apr 2 17:11:08 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

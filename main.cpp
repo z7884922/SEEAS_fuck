@@ -18,15 +18,15 @@ int main(int argc, char *argv[])
 
 	SEEAS w;
 	//载入画面悬停
-	for (int i=0; i<5000; i++){
+	/*for (int i=0; i<5000; i++){
 		splash.repaint();
-	}
+	}*/
 	
 	splash.showMessage(QObject::tr("载入模块..."), bottomRight, Qt::black);
 	//载入画面悬停
-	for (int i=0; i<5000; i++){
-		splash.repaint();
-	}
+	/*for (int i=0; i<5000; i++){
+	splash.repaint();
+	}*/
 
 	w.show();
 
